@@ -4,7 +4,7 @@ import {getAppVersion} from "../lib/appVersion";
 import humanizeDuration from "humanize-duration";
 import api from "../lib/apiGraphQL";
 
-const humanizer = humanizeDuration.humanizer({
+const humanize = humanizeDuration.humanizer({
   language: "shortEn",
   maxDecimalPoints: 2,
   spacer: "",
